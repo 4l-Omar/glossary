@@ -1,0 +1,10 @@
+---
+pt-BR:
+  activerecord:
+    attributes:
+      term:
+        name: Nome
+        description: Descrição
+        url: Referência
+    models:
+      term: Termos
