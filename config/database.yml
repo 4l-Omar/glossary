@@ -32,7 +32,7 @@ development:
   #username: al-omar 
 
   # The password associated with the postgres role (username).
-  #password:
+  #password: 33 
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: glossary_production
-  username: glossary
-  password: <%= ENV['GLOSSARY_DATABASE_PASSWORD'] %>
+  #username: glossary
+  #password: <%= ENV['GLOSSARY_DATABASE_PASSWORD'] %>
